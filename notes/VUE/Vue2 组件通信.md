@@ -45,14 +45,15 @@
 > 
 > 2、
 > props: {
->     childCom: String //这里指定了字符串类型，如果类型不一致会警告的哦
+>  childCom: String //这里指定了字符串类型，如果类型不一致会警告的哦
 > }
+> 
 > 3、
 > props: {
->     childCom: {
->         type: String,
->         default: '默认值' 
->     }
+>  childCom: {
+>      type: String,
+>      default: '默认值' 
+>  }
 > }
 > ```
 
